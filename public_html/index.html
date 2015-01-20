@@ -9,7 +9,7 @@ and open the template in the editor.
         <title>Jquery</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link type="text/css" rel="stylesheet" href="css/style.css">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
         <link type="text/css" href="css/jquery-ui-1.11.2.custom" rel="Stylesheet" />
@@ -18,23 +18,15 @@ and open the template in the editor.
 
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 
-        <link type="text/css" rel="stylesheet" href="css/style.css">
-
         <link rel="stylesheet" href="css/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
         <script type="text/javascript" src="css/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
         <script type="text/javascript" src="css/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
 
-        <style>
-            #numbers {
-                background-color: blue;
-                width: 300px;
-                overflow:hidden;
-            }
-        </style>
+
     </head>
     <body>
-
+        <!-- sortable resizable tabbed boxes-->
         <div id="tabs">
             <ul id="sortMe">
                 <li><a href="#fragment-1"><span>Game</span></a></li>
@@ -49,10 +41,10 @@ and open the template in the editor.
             <div id="fragment-3">passing</div>
 
         </div>
-
+        <!-- colored div-->
         <div class="why">
             <p id="wAndW">what and why</p>
-
+            <!-- images for lightbox-->
             <span><a rel="example_group" href="images/hillsbig.jpg"><img src="images/hillssmall.jpg" title="Hills"></a></span>
             <span><a rel="example_group" href="images/junglebig.jpg"><img src="images/junglesmall.jpg" title="Jungle"></a></span> 
             <span><a rel="example_group" href="images/mountainbig.jpg"><img src="images/mountainsmall.jpg" title="Mountain"></a></span>
@@ -63,7 +55,7 @@ and open the template in the editor.
             <p>how should i</p>
             <p id="like"> like this</p>
         </div>
-
+        <!--div for accordian-->
         <div id="numbers">
             <h4>1</h4>
             <p>I</p>
@@ -72,9 +64,22 @@ and open the template in the editor.
             <h4>3</h4>
             <p>III</p>
         </div> 
-
+        <!--flipping text-->
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+                <div class="front">
+                    <!-- front content -->
+                    how
+                </div>
+                <div class="back">
+                    <!-- back content -->
+                    what
+                </div>
+            </div>
+        </div>
+        <!-- image-->
         <img id="picture" src="http://cdn.swide.com/binaries/content/gallery/legacy/2011/4/23/colors/inside/colors_inside_01.jpg">
-
+        <!-- buttons --->
         <button type="button" id="oneButton">Button</button>
         <button type="button" id="addText">Add Text</button>
         <button type="button" id="removeText">Remove Text</button>
