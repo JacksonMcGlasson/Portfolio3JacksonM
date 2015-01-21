@@ -3,6 +3,7 @@
     background-color: blue;
     width: 300px;
     overflow:hidden;
+    cursor: url('images/mycursor.png'), default;
 }
 /*flipped box*/
 /* entire container, keeps perspective */
@@ -51,3 +52,5 @@
 .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
     transform: rotateY(180deg);
 }
+
+	
