@@ -8,43 +8,43 @@ $("document").ready(function () {
     $(".why").css("background-color", "skyblue");
 
     $("div p:nth-child(3)").css("color", "yellow");
-    
+
     //binds button to click and alert function
     $("#oneButton").bind("click", alertButtonClick);
-    
+
     //binds picture to mouseover alert function
     $("#picture").bind("mouseover", pictureAlert);
-    
+
     //binds button to click and add text function
     $("#addText").bind("click", addText);
-    
+
     //binds button to click and remove text function
     $("#removeText").bind("click", removeText);
-    
+
     //binds button to click and hide image function
     $("#hideImage").bind("click", hideImage);
-    
+
     //binds button to click and show image function
     $("#showImage").bind("click", showImage);
-    
+
     //binds button to click and huge image function
     $("#hugeImage").bind("click", hugeImage);
-    
+
     // makes "numbers" div into an accordian
     $("#numbers").accordion({header: "h4"});
 
     //binds button to click and hide accordian function
     $("#oneButton").bind("click", hideAccord);
-    
+
     //binds button to click and show accordian function
     $("#removeText").bind("click", showAccord);
 
     //makes lightbox and lightbox animations
     $("a[rel=example_group]").fancybox({
-        "transitionIn" : "fade",
-        "transitionOut" : "elastic",
-        "titleposition" : "over",
-        "titleformat" : function(title, currentArray, currentIndex, current0pts)
+        "transitionIn": "fade",
+        "transitionOut": "elastic",
+        "titleposition": "over",
+        "titleformat": function (title, currentArray, currentIndex, current0pts)
         {
             return "<span id=fancy-box-title-over"
         }
