@@ -54,6 +54,7 @@
 body {
 	cursor: url('cursor.png.ico'), default;
 }
+/*these two functions cause the link nudging*/
 #animateList li a {
     cursor: pointer;
     transition: padding-left 250ms ease-out;

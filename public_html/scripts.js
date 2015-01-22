@@ -21,13 +21,13 @@ $("document").ready(function () {
     //binds button to click and remove text function
     $("#removeText").bind("click", removeText);
     
-    //binds picture to click and hide image function
+    //binds button to click and hide image function
     $("#hideImage").bind("click", hideImage);
     
-    //binds picture to click and show image function
+    //binds button to click and show image function
     $("#showImage").bind("click", showImage);
     
-    //binds picture to click and huge image function
+    //binds button to click and huge image function
     $("#hugeImage").bind("click", hugeImage);
     
     // makes "numbers" div into an accordian
