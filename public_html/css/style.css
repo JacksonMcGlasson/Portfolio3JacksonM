@@ -52,7 +52,7 @@
     transform: rotateY(180deg);
 }
 body {
-    cursor: url('cursor.png.ico'), default;
+    cursor: url('../images/cursor.png.ico'), default;
 }
 /*these two functions cause the link nudging*/
 #animateList li a {
